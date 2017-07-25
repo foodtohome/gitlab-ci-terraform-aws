@@ -1,4 +1,4 @@
-FROM christophgysin/gitlab-ci-terraform:latest
+FROM foodtohome/gitlab-ci-terraform:latest
 
 RUN mkdir -p /aws && \
     apk add jq groff less python py-pip && \
